@@ -67,7 +67,6 @@ async function getTradeHistory(poolAddress, tokenAddress1, tokenAddress2) {
         );
       })
       .map((pool) => pool.attributes);
-    console.log(trades);
 
     // Return trade history
     return trades;
@@ -112,6 +111,6 @@ const outputTokenAddress = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"; // WETH
 
 getPoolsWithTradeHistory(inputTokenAddress, outputTokenAddress).then(
   (pools) => {
-    // console.log("Pools with Trade History:", pools);
+    console.log("Pools with Trade History:", pools);
   }
 );
