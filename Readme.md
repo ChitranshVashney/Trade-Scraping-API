@@ -91,7 +91,11 @@ _Example Output (JSON Format):_
 
 ## Running the Code
 
-1. **Prepare Your Environment**: Ensure you are running this code in a JavaScript environment that supports the Fetch API, such as a modern web browser or a Node.js environment with a fetch polyfill.
+1. **Prerequisites**: Ensure you have Node.js installed on your system.
 
-2. **Set Token Addresses**: Replace `inputTokenAddress` and `outputTokenAddress` with the addresses of the tokens you are interested in.
+2. **Run the Script**: Replace `inputTokenAddress` and `outputTokenAddress` with the addresses of the tokens you are interested in.
 3. **Execute the Code**: Run the script in your environment. The results will be logged to the console.
+
+```bash
+node tradeHistory.js
+```
